@@ -4,7 +4,7 @@ import scipy.io.wavfile as wv
 import scipy.signal as sgnl
 from scipy.io.wavfile import write
 
-samplerate, data = wv.read(modulated_noisy_audio.wav)
+samplerate, data = wv.read(https://github.com/NevinSiby/SignalDemodulation/blob/main/modulated_noisy_audio.wav)
 
 
 fft_data = np.fft.fft(data)
